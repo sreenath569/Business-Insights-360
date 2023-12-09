@@ -77,7 +77,7 @@ Fact Tables
    
    [fact_forecast_monthly](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/DB%20Files/fact_forecast_monthly.jpeg)
        
-Others
+Supporting Facts
    
    [gross_price](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/DB%20Files/gross_price.jpeg)
    

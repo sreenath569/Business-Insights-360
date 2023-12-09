@@ -2,7 +2,7 @@
 This PowerBI project has been successfully executed through a collaborative effort with the CodeBasics Team during the Data Analytics Bootcamp.
 
 [CodeBasics](https://codebasics.io/#ourcourses)
-[dim_customer](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/Images/acquisition.png)
+
 ## AtliQ Hardware(Client Company)
 AtliQ Hardware is a Company that sells hardware like Accessories, Desktop, Networking, Notebook, Peripherals & Storage devices to different customers.
 
@@ -60,23 +60,33 @@ To enhance decision-making processes and gain valuable insights, Product Owner o
     This validation process ensures that the data aligns with the expected benchmarks and meets the predefined criteria.
 
 
-    Tables/Queries Collected:-
+   Tables/Queries Collected:-
 
-    Dimension Tables
-       [dim_customer](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/Images/acquisition.png)
-       dim_market
-       dim_product
+   Dimension Tables
+   
+   [dim_customer](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/DB%20Files/dim_customer.jpeg)
+   
+   [dim_market]()
+   
+   [dim_product]()
        
-    Fact Tables
-       fact_sales_monthly
-       fact_forecast_monthly
+Fact Tables
+   
+   [fact_sales_monthly]()
+   
+   [fact_forecast_monthly]()
        
-    Others
-       gross_price
-       pre_invoice_deductions
-       post_invoice_deductions
-       manufacturing_cost
-       freight_cost   
+Others
+   
+   [gross_price]()
+   
+   [pre_invoice_deductions]()
+   
+   [post_invoice_deductions]()
+   
+   [manufacturing_cost]()
+   
+   [freight_cost]()   
     
 ### Data Tranformation
 

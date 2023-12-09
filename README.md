@@ -18,14 +18,15 @@ Peripherals includes Graphic Card, Internal HDD, MotherBoard, Processors etc.
 
 Storage Devices includes External SDDs, USB Flash Drives etc.
 
-![AtliQ Customers](https://github.com/sreenath569/Business-Insights-360/assets/70423931/c7f4617b-005b-41c5-a38a-9d5e7bc74b20)
+[AtliQ Customers](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/Images/AtliQ%20Customers.jpeg)
 
 ## Problem Statement
 AtliQ Hardware, a leading provider of diverse hardware solutions, faces the challenge of efficiently managing and analyzing its extensive product inventory and sales data. The company sells a wide range of hardware, including Accessories , Desktops , Networking equipment , Notebooks , Peripherals and Storage Devices.
 
 ## Solution
 To enhance decision-making processes and gain valuable insights, Product Owner of AtliQ Hardware aims to leverage PowerBI for developing a comprehensive business intelligence solution.
-![dashboard views](https://github.com/sreenath569/Business-Insights-360/assets/70423931/c128f32e-9bd0-49b5-b5bb-01dd86839022)
+
+[dashboard views](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/Images/dashboard%20views.jpeg)
 
 ## Steps involved in this Project
 ### Data Collection
@@ -66,27 +67,27 @@ To enhance decision-making processes and gain valuable insights, Product Owner o
    
    [dim_customer](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/DB%20Files/dim_customer.jpeg)
    
-   [dim_market]()
+   [dim_market](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/DB%20Files/dim_market.jpeg)
    
-   [dim_product]()
+   [dim_product](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/DB%20Files/dim_product.jpeg)
        
 Fact Tables
    
-   [fact_sales_monthly]()
+   [fact_sales_monthly](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/DB%20Files/fact_sales_monthly.jpeg)
    
-   [fact_forecast_monthly]()
+   [fact_forecast_monthly](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/DB%20Files/fact_forecast_monthly.jpeg)
        
 Others
    
-   [gross_price]()
+   [gross_price](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/DB%20Files/gross_price.jpeg)
    
-   [pre_invoice_deductions]()
+   [pre_invoice_deductions](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/DB%20Files/pre_invoice_deductions.jpeg)
    
-   [post_invoice_deductions]()
+   [post_invoice_deductions](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/DB%20Files/post_invoice_deductions.jpeg)
    
-   [manufacturing_cost]()
+   [manufacturing_cost](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/DB%20Files/manufacturing_cost.jpeg)
    
-   [freight_cost]()   
+   [freight_cost](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/DB%20Files/freight_cost.jpeg)   
     
 ### Data Tranformation
 

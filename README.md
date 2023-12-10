@@ -88,7 +88,28 @@ Supporting Facts
    [manufacturing_cost](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/DB%20Files/manufacturing_cost.jpeg)
    
    [freight_cost](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/DB%20Files/freight_cost.jpeg)   
+
+
     
 ### Data Tranformation
 
+   Queries prepared:-
 
+      LastSalesDate - get last sales date by referencing fact_sales_monthly
+                     {List.Max(#"fact_sales_monthly"[date])}
+      
+      RemainingForecast - remaining forecast from last sales date by referencing fact_forecast_monthly
+                           {Table.SelectRows(Source, each([date]>LastSalesDate))}
+
+      fact_actuals_estimates - appending fact_sales_monthly & RemainingForecast
+
+   Custom columns added in fact_actuals_estimates:-
+
+      fisacl_year - Date.Year(Date.AddMonths([date],4)){AtliQ Hardware fiscal year Sept-Aug}
+
+      gross_sales_amount - by merging fact_actuals_estimates & gross_price
+
+      pre_invoice_discount_amount - by merging fact_actuals_estimates & pre_invoice_deductions
+
+      net_invoice_sales_amount = [gross_sales_amount]-[pre_invoice_discount_amount]
+                     

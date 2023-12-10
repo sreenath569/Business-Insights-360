@@ -70,6 +70,8 @@ To enhance decision-making processes and gain valuable insights, Product Owner o
    [dim_market](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/DB%20Files/dim_market.jpeg)
    
    [dim_product](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/DB%20Files/dim_product.jpeg)
+
+   [dim_date]()
        
 Fact Tables
    
@@ -91,7 +93,7 @@ Supporting Facts
 
 
     
-### Data Tranformation
+### Data Tranformation( Power Query )
 
    Queries prepared:-
 
@@ -112,4 +114,47 @@ Supporting Facts
       pre_invoice_discount_amount - by merging fact_actuals_estimates & pre_invoice_deductions
 
       net_invoice_sales_amount = [gross_sales_amount]-[pre_invoice_discount_amount]
-                     
+
+   Best practices used in Power Query:-
+
+      i. Naming the Query steps.
+      ii. Write comments for Complex Transformations.
+      ii. Grouping Tables.
+      iii. Disable load for Tables that will not be used outside Power Query.
+      iv. Keep the table names minimal.
+      v. Query folding.
+
+### Data Modeling & DAX Calculated Columns( Power BI )
+
+   Data Modeling :-
+
+      Established relationships between the tables by refering primary keys and foreign keys.
+      
+   DAX Calculated Columns in fact_actuals_estimates:-
+
+      post_invoice_deductions_amount
+      
+      post_invoice_other_deductions_amount
+      
+      Net_sales_amount = Net_invoice_sales_amount - post_invoice_deductions_amount - post_invoice_other_deductions_amount
+      
+      manufacturing_cost
+      
+      freight_cost
+      
+      freight_other_cost
+      
+      total_cogs_amount = manufacturing_cost + freight_cost + freight_other_cost {cogs - cost of goods sold}
+      
+      gross_margin_amount = Net_sales_amount - total_cogs_amount
+      
+### Finance View
+
+### Sales View
+
+### Marketing View
+
+### Supply Chain View
+
+### Executive View
+

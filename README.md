@@ -150,6 +150,10 @@ Supporting Facts
       
 ### Finance View
 
+   Key Learnings:-
+      i. filter context
+      ii. Create static table, 
+      ii. SUM, CALCULATE, SAMEPERIODLASTYEAR, DIVIDE, SWITCH, HASONEVALUE, MAX
 ### Sales View
 
 ### Marketing View

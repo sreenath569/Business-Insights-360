@@ -89,7 +89,9 @@ Supporting Facts
    
    [manufacturing_cost](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/DB%20Files/manufacturing_cost.jpeg)
    
-   [freight_cost](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/DB%20Files/freight_cost.jpeg)   
+   [freight_cost](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/DB%20Files/freight_cost.jpeg)  
+
+   [NsGmTarget]()
 
 
     

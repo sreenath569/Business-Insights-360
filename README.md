@@ -1,7 +1,7 @@
 # Business-Insights-360 - AtilQ Hardware
 This PowerBI project has been successfully executed through a collaborative effort with the CodeBasics Team during the Data Analytics Bootcamp.
 
-[CodeBasics](https://codebasics.io/#ourcourses)
+Data Analytics Bootcamp link - [CodeBasics](https://codebasics.io/#ourcourses)
 
 ## AtliQ Hardware(Client Company)
 AtliQ Hardware is a Company that sells hardware like Accessories, Desktop, Networking, Notebook, Peripherals & Storage devices to different customers.

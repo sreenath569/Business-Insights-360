@@ -3,22 +3,24 @@ This PowerBI project has been successfully executed through a collaborative effo
 
 Data Analytics Bootcamp link - [CodeBasics](https://codebasics.io/#ourcourses)
 
-## Overview
-AtliQ Hardware is a Company that sells hardware like Accessories, Desktop, Networking, Notebook, Peripherals & Storage devices to different customers. As part of companies commitment to excellence and data-driven decision making, the company management initiated a Data Analysis project to gain valuable insights into companies Finance, Sales, Marketing & Supply chain Management.
 ## AtliQ Hardware(Client Company)
 AtliQ Hardware is a Company that sells hardware like Accessories, Desktop, Networking, Notebook, Peripherals & Storage devices to different customers.
 
-Accessories includes Batteries, Keyboard, Mouse etc.
+      Accessories includes Batteries, Keyboard, Mouse etc.
+      Desktop includes Business Laptop, Personal Desktop etc.
+      Networking includes Wifi extender.
+      Notebook includes Business Laptop, Gaming Laptop, Personal Laptop etc.
+      Peripherals includes Graphic Card, Internal HDD, MotherBoard, Processors etc.
+      Storage Devices includes External SDDs, USB Flash Drives etc.
 
-Desktop includes Business Laptop, Personal Desktop etc.
+## Overview
+AtliQ Hardware, a leading provider of diverse hardware solutions, faces the challenge of efficiently managing and analyzing its extensive product inventory, sales and finance data. To overcome the challenges, the Product Owner of AtliQ Hardware decided to develop a comprehensive business intelligence solution with the help of CodeBasics team.  
 
-Networking includes Wifi extender.
 
-Notebook includes Business Laptop, Gaming Laptop, Personal Laptop etc.
 
-Peripherals includes Graphic Card, Internal HDD, MotherBoard, Processors etc.
+enhance decision-making processes and gain valuable insights, Product Owner of AtliQ Hardware aims to leverage PowerBI for developing a comprehensive business intelligence solution with the help of CodeBasics team.
 
-Storage Devices includes External SDDs, USB Flash Drives etc.
+
 
 [AtliQ Customers](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/Images/AtliQ%20Customers.jpeg)
 

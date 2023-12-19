@@ -16,21 +16,7 @@ AtliQ Hardware is a Company that sells hardware like Accessories, Desktop, Netwo
 ## Overview
 AtliQ Hardware, a leading provider of diverse hardware solutions, faces the challenge of efficiently managing and analyzing its extensive product inventory, sales and finance data. To overcome the challenges, the Product Owner of AtliQ Hardware decided to develop a comprehensive business intelligence solution with the help of CodeBasics team.  
 
-
-
-enhance decision-making processes and gain valuable insights, Product Owner of AtliQ Hardware aims to leverage PowerBI for developing a comprehensive business intelligence solution with the help of CodeBasics team.
-
-
-
-[AtliQ Customers](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/Images/AtliQ%20Customers.jpeg)
-
-## Problem Statement
-AtliQ Hardware, a leading provider of diverse hardware solutions, faces the challenge of efficiently managing and analyzing its extensive product inventory and sales data. The company sells a wide range of hardware, including Accessories , Desktops , Networking equipment , Notebooks , Peripherals and Storage Devices.
-
-## Solution
-To enhance decision-making processes and gain valuable insights, Product Owner of AtliQ Hardware aims to leverage PowerBI for developing a comprehensive business intelligence solution.
-
-[dashboard views](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/Images/dashboard%20views.jpeg)
+This initiative aims to comprehensively address stakeholder inquiries across finance, sales, marketing, and supply chain domains. By providing thorough insights and analysis, the project seeks to enhance decision-making processes and foster strategic alignment within the organization. Ultimately, its goal is to optimize performance and drive sustainable success across multifaceted business aspects.
 
 ## Steps involved in this Project
 ### Data Collection

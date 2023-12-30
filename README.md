@@ -18,7 +18,7 @@ AtliQ Hardware, a leading provider of diverse hardware solutions, faces the chal
 
 This initiative aims to comprehensively address stakeholder inquiries across finance, sales, marketing, and supply chain domains. By providing thorough insights and analysis, the project seeks to enhance decision-making processes and foster strategic alignment within the organization. Ultimately, its goal is to optimize performance and drive sustainable success across multifaceted business aspects.
 
-## Steps involved in this Project
+## Project Workflow
 ### Data Collection
     **Data Sources**:-
     The Data Engineer at AtliQ Hardware has facilitated the data transfer in two distinct formats:

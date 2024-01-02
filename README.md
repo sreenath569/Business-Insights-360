@@ -39,49 +39,19 @@ This initiative aims to comprehensively address stakeholder inquiries across fin
     **Establishment of Relationships**:-
     Post data loading into Power BI, careful consideration has been given to establishing relationships between the various tables.
     These relationships are essential for ensuring data consistency and accuracy throughout the analytical process.
-
-
-    **Dimensional Date Table Creation**:-
-    Within the Power Query Editor of Power BI, a Dimensional Date table has been created.
-    This specialized table is pivotal for organizing and categorizing dates, providing a structured foundation for time-based analysis.
-
-
-    **Benchmark Validation**:-
-    The Benchmark numbers provided by the Business have been meticulously validated against the loaded data.
-    This validation process ensures that the data aligns with the expected benchmarks and meets the predefined criteria.
-
-
-   Tables/Queries Collected:-
-
-   Dimension Tables
-   
-   [dim_customer](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/DB%20Files/dim_customer.jpeg)
-   
-   [dim_market](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/DB%20Files/dim_market.jpeg)
-   
-   [dim_product](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/DB%20Files/dim_product.jpeg)
-
-   [dim_date]()
-       
-Fact Tables
-   
-   [fact_sales_monthly](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/DB%20Files/fact_sales_monthly.jpeg)
-   
-   [fact_forecast_monthly](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/DB%20Files/fact_forecast_monthly.jpeg)
-       
-Supporting Facts
-   
-   [gross_price](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/DB%20Files/gross_price.jpeg)
-   
-   [pre_invoice_deductions](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/DB%20Files/pre_invoice_deductions.jpeg)
-   
-   [post_invoice_deductions](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/DB%20Files/post_invoice_deductions.jpeg)
-   
-   [manufacturing_cost](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/DB%20Files/manufacturing_cost.jpeg)
-   
-   [freight_cost](https://github.com/sreenath569/Business-Insights-360/blob/main/DATASET/DB%20Files/freight_cost.jpeg)  
-
-   [NsGmTarget]()
+    
+    Tables:-
+      dim_customer(dimension)
+      dim_market(dimension)
+      dim_product(dimension)
+      fact_sales_monthly(fact)
+      fact_forecast_monthly(fact)
+      gross_price(supporting fact)
+      pre_invoice_deductions(supporting fact)
+      post_invoice_deductions(supporting fact)
+      manufacturing_cost(supporting fact)
+      freight_cost(supporting fact)
+      NsGmTarget(supporting fact)
 
 
     
@@ -140,17 +110,5 @@ Supporting Facts
       
       gross_margin_amount = Net_sales_amount - total_cogs_amount
       
-### Finance View
-
-   Key Learnings:-
-      i. filter context
-      ii. Create static table, 
-      ii. SUM, CALCULATE, SAMEPERIODLASTYEAR, DIVIDE, SWITCH, HASONEVALUE, MAX
-### Sales View
-
-### Marketing View
-
-### Supply Chain View
-
-### Executive View
+### Key Learnings
 
